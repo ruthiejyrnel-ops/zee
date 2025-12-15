@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #140b1f;
+      --purple-soft: #b89cff;
+      --purple-deep: #6d4cff;
+      --text-main: #f2ecff;
+      --text-muted: #c9bfff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #481d54, var(--bg));
+      font-family: 'Poppins', sans-serif;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 720px;
+      width: 100%;
+      text-align: center;
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--purple-soft);
+      margin-bottom: 60px;
+    }
+
+    section {
+      margin-bottom: 70px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.9;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+    }
+
+    .highlight {
+      color: var(--text-main);
+    }
+
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--purple-deep), transparent);
+      margin: 60px auto;
+    }
+
+    .whisper {
+      font-style: italic;
+      color: var(--purple-soft);
+    }
+
+    footer {
+      font-size: 0.85rem;
+      color: #9c8dd9;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>
+      Your presence stays with me, haunting my soul in ways I don’t know how to escape.
+    </h1>
+
+    <section>
+      <p>
+       I miss you in a way that has settled into me rather than shaken me. It is not loud nor dramatic. It lives in the background of my days, steady and familiar. I find myself reaching for you in moments that don’t ask for it, in thoughts that arrive without warning. You are still here, not in presence, but in the way my heart remembers where it belongs.
+      </p>
+
+      <p>
+        Missing you has taught me patience. It has taught me how to hold love without demanding anything in return. I don’t ache for you to fill the silence. I simply carry you through it.
+      </p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+      <p class="highlight">
+       There is a quiet kind of longing that doesn’t rush or plead. That is how I miss you. I miss you with tenderness, with a softness that refuses to fade. Even when time moves forward, a part of me remains turned toward you, not stuck, just devoted.
+      </p>
+
+    
+    <div class="divider"></div>
+
+   <section>
+      <p class="whisper">
+        If you ever wonder whether you are still felt,
+        know that you are everywhere I go.
+      </p>
+    </section>
+
+    <footer>
+      Always yours entirely, endlessly, and undeniably— no matter the distance.
+    </footer>
+
+  </div>
+
+</body>
+</html>
